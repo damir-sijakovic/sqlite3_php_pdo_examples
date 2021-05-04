@@ -210,7 +210,7 @@ function getLastRecord()
  
  
 /**********************************************************************\
- Return id of last inserted record or -1. 
+ Delete record by id. Returns null if nothing was changed.
 \**********************************************************************/
 function deleteById($id)
 {        
@@ -278,7 +278,7 @@ function isEmpty($id)
  
  
 /**********************************************************************\
- Is table empty?
+ Update user name. Returns null if nothing was changed.
 \**********************************************************************/
 function updateUserName($id, $username)
 {      
